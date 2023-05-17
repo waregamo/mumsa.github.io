@@ -1,0 +1,134 @@
+.header{
+    /* position: fixed; */
+    width: 100%;
+    background-color: #16a084f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    padding: 10px 60px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.announce-container{
+    min-height: 90vh;
+    background-color: #f1f1f1;
+}
+
+.announce-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+    height: 2.5cm;
+}
+
+.logo2{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 30%;
+}
+
+.logo2 img{
+    height: 100px;
+}
+
+.announce-body h1{
+    font-size: 5rem;
+}
+
+.ann-nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ann-nav li a{
+    font-size: 'Poppins', serif;
+    text-decoration: none;
+    color: black;
+}
+
+.blog{
+    padding: 0 20px;
+    gap: 10px;
+    color: black;
+    display: flex;
+}
+
+.News{
+    width: 65%;
+}
+
+.events{
+    max-width: 30%;
+}
+
+.events .event{
+    padding-left: 20px;
+}
+
+.events .event h2{
+    color: rgb(78, 78, 78);
+    margin: 0;
+}
+
+.events .event p{
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.blog .News .blocks{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.News .news{
+    width: 400px;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.news .img{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.news .img img{
+    height: 100%;
+    width: 100%;
+}
+
+.news h4{
+    text-align: center;
+    padding: 5px 20px;
+    margin: 0;
+    font-size: 14px;
+    color: rgb(44, 44, 44);
+}
+
+.news p{
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}

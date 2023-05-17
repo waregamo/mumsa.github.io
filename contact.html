@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts | Moi University Muslim Student Association</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="images/logo.png" alt="mumsalogo">
+        </div>
+        <ul class="shrinked nav">
+            <li class="link"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown" id="drop1"><a href="">Resources</a>
+                <ul class="dropdown-list" id="dropdown-list1" >
+                    <li><a href="https://library.mu.ac.ke/">Library</a></li>
+                    <li>Blog</li>
+                    <li><a href="videos.html">Videos</a></li>
+                    <li>Partnership</li>
+                    <li>Sponsorship</li>
+                </ul>
+            </li>
+            <li class="dropdown" id="drop2"> <a href="">Activities</a>
+                <ul class="dropdown-list" id="dropdown-list2" >
+                    <li>Prayer Timetable</li>
+                </ul>
+            </li>
+            <li class="dropdown" id="drop3"><a href="donate.html">Donate</a>
+                <ul class="dropdown-list" id="dropdown-list3" >
+                    <li><a href="donate.html">Make Donation</a></li>
+                    <li>Volunteer</li>
+                </ul>
+            </li>
+            <li><a href="contact.html">Contacts</a></li>
+            <li class="dropdown" id="drop4"><a href="#">Others</a>
+                <ul class="dropdown-list" id="dropdown-list4" >
+                    <li><a href="announce.html">Announcements</a></li>
+                    <li>Alumni section</li>
+                </ul>
+            </li>
+            
+        </ul>
+        <div id="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+       </div>
+       <script>
+        //toggle smartphone navigationbar
+            document.getElementById("hamburger").onclick = () =>{
+              document.querySelector(".header ul").classList.toggle('shrinked');
+            }
+       </script>
+   </div>
+
+   <div class="form-container">
+        <form action=""></form>
+   </div>
+</body>
+</html>
